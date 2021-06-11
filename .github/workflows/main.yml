@@ -36,6 +36,5 @@ jobs:
     
     - name: installing surge  
       run: npm install -g surge
-    
     - name: deploying on surge
       run: surge ./build unzilareact2.surge.sh --token ${{secrets.SURGE_TOKEN1}}
